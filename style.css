@@ -4,6 +4,243 @@
     padding: 0;
 }
 
+
+/* home-banner */
+.banner-cont {
+    background-color: #F2F8ED;
+    padding-top: 100px;
+
+}
+/* 
+.banner-cont .left, .banner-cont .right {
+    width: 10%;
+}
+
+.banner-cont .center-item {
+    width: 80%;
+    text-align: center;
+} */
+
+.banner-cont .right img {
+    margin-top: 14rem;
+}
+
+.banner-cont .center-item {
+    text-align: center;
+}
+
+.banner-cont .center-item img {
+    left: 20;
+}
+
+.banner-cont .center-item h3 {
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 700;
+    letter-spacing: 5%;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+}
+
+.banner-cont .center-item h3 span {
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    color: #71CC16;
+}
+
+.banner-cont .center-item p {
+    margin-top: 2rem;
+    color: #65757E;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    width: 63%;
+    margin: 0 auto;
+}
+
+.banner-cont .center-item button {
+    margin: 3rem auto;
+    background-color: #71CC16;
+
+    color: #fff;
+    border: none;
+    padding: 0.8rem 3rem;
+    text-transform: capitalize;
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.banner-cont .bottom  {
+   text-align: center;
+}
+
+
+/* why section */
+.use-cont {
+    padding: 72px 91px;
+}
+
+.use-cont h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+}
+
+.use-cont .items {
+    margin-top: 90px;
+    
+}
+
+.use-cont .items .icon {
+    margin-bottom: 34px;
+}
+
+.use-cont .items .sub-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #096601;
+    line-height: 24px;
+}
+
+.use-cont .items .text-inner {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 28px;
+}
+
+/* product details */
+.product-det {
+    background-color: #002704;
+    padding: 98px 88px;
+}
+
+.product-det .left {
+    margin-top: 4rem;
+    margin-left: 7rem;
+}
+.product-det .left h5 {
+    text-transform: uppercase;
+    color: #71CC16;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 19.36px;
+}
+
+.product-det .left h4 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    line-height: 47.84px;
+}
+
+.product-det .left .inner-text {
+    width: 65%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 32px;
+    color: #f7f8fa;
+}
+
+
+.product-det .left img {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* intereste-cont */
+.interests-cont  {
+    background-color: #F7F8FA;
+
+}
+
+.interests-cont .left {   
+    padding-right: 171px;
+}
+.interests-cont .left img {
+    width: 378px;
+    margin-top: -4rem;
+    margin-bottom: -4.6rem;
+}
+
+.interests-cont .right {
+    padding-top: 4 rem;
+    width: 27%;
+}
+
+.interests-cont .right h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    line-height: 47.84px;
+    color: #002134;
+}
+
+.interests-cont .right ul {
+    list-style: none;
+    
+}
+
+.interests-cont .right ul li {
+    list-style-image: url(assets/list-icon.png);
+    color: #71CC16;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    line-height: 31.9px;
+    margin-top: 2rem;
+}
+
+.interests-cont .right ul p {
+    color: #65757E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 32px;
+    margin-top: 12px;
+}
+
+/* testimonial */
+.testimonial-cont {
+    background-color: #fff;
+    padding-top: 74px;
+
+}
+
+.testimonial-cont .top-heading {
+    text-align: center;
+}
+
+.testimonial-cont .top-heading h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 21.78px;
+    color: #096601;
+    text-transform: uppercase;
+}
+
+.testimonial-cont .top-heading h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    line-height: 47.84px;
+    color: #002134;
+}
+.testimonial-cont .top-heading h3 span {
+    color: #71CC16;
+}
+
+
 /* footer */
 .footer-main {
     background-color: #ECEFF4;
