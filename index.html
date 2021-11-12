@@ -10,12 +10,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Exo:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Smartware technologies</title>
 </head>
 <body>
     
     <!-- nav -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="#"><img src="assets/nav-logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/product.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/company.html">Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pricing.html">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <!-- banner -->
     <div class="banner-cont">
@@ -105,7 +136,7 @@
         <div class="inner-cont container ">
             <div class="d-flex justify-content-center">
                 <div class="left">
-                    <img src="assets/mobile.png" alt="">
+                    <img src="assets/mobile.png" class="animate__animated animate__pulse animate__slow" alt="">
 
                 </div>
                 
@@ -152,11 +183,11 @@
                         </div>
 
                         <div class="col-md-4">
-                            <div class="testimonial">
+                            <div class="testimonial center">
                                 <div class="company-logo">
                                     <img src="assets/logo.png" alt="">
                                 </div>
-                                <div class="inner-text">
+                                <div class="inner-text" style="margin-bottom: 30px;">
                                     <p>App allows us to track app review volume and ratings over time, Semantics Analytics for tracking trending topics and sentiment for review insights reporting. I highly recommend the service if you need an effective product for app review management with detailed access to dashboards and reporting!</p>
                                 </div>
                                 <div class="testimonial-name">
@@ -189,7 +220,19 @@
     </div>
 
     <!-- clients -->
-
+    <div class="clients-cont">
+        <div class="clients-cont container">
+            <h3>Our Clients</h3>
+            <div class="client-logo d-flex justify-content-between">
+                <img src="assets/wakanow-logo 2.png" alt="">
+                <img src="assets/image 1.png" alt="">
+                <img src="assets/image 2.png" alt="">
+                <img src="assets/image 4.png" alt="">
+                <img src="assets/image 5.png" alt="">
+                <img src="assets/image 6.png" alt="">
+            </div>
+        </div>
+    </div>
     <!-- downd app -->
 
     <!-- footer -->

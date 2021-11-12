@@ -4,6 +4,38 @@
     padding: 0;
 }
 
+/* navbar */
+.navbar {
+    background-color: #fff ;
+    padding: 1rem 1.5rem !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-left: 4rem !important;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #000 ;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 19.36px;
+    text-transform: capitalize;
+}   
+
+.navbar .navbar-nav .nav-link .active a {
+    color: #71CC16 !important;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Exo", sans-serif;
+}
+
+.navbar .navbar-nav .nav-item .a:hover {
+    color: red !important;
+}
+  
+
 
 /* home-banner */
 .banner-cont {
@@ -236,10 +268,70 @@
     line-height: 47.84px;
     color: #002134;
 }
+
 .testimonial-cont .top-heading h3 span {
     color: #71CC16;
 }
 
+.testimonial-cont .testimonials-section .testimonial {
+    padding: 2.5rem 2rem;
+}
+
+.testimonial-cont .testimonials-section  .center {
+    width: 414px;
+}
+
+.testimonial-cont .testimonials-section .testimonial .inner-text {
+    margin-top: 19px;
+    margin-bottom: 92px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+}
+
+.testimonial-cont .testimonials-section .testimonial .testimonial-name .name {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    line-height: 23.92px;
+    color: #002134;
+}
+
+.testimonial-cont .testimonials-section .testimonial .testimonial-name .role {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 36px;
+    color: #65757E;
+    margin-top: -1rem;
+}
+.testimonial-cont .testimonials-section .testimonial .testimonial-name .role span {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 36px;
+    color: #002134;
+}
+
+/* clients */
+.clients-cont {
+    text-align: center;
+    margin: 2rem auto;
+}
+.clients-cont h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    line-height: 47.84px;
+    color: #002134;
+    margin-bottom: 1rem;
+}
+
+.clients-cont .client-logo {
+    margin-bottom: 106px;
+}
 
 /* footer */
 .footer-main {
