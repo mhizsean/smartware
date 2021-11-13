@@ -333,6 +333,99 @@
     margin-bottom: 106px;
 }
 
+/* download sextion */
+.download-cont {
+    background-color: #002704;
+    /* padding: 3rem 2rem; */
+
+}
+
+.download-cont .download-main .left {
+    margin-top: 15rem;
+}
+
+.download-cont .download-main .mid {
+    margin-top: 3rem;
+    padding: 2rem 5rem;
+}
+
+.download-cont .download-main .mid h3 {
+   font-size: 40px;
+   font-weight: 500;
+   font-family: "Exo", sans-serif;
+   line-height: 50px;
+   color: #fff;
+    
+}
+
+.download-cont .download-main .mid .demo-link p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 21.78px;
+    color: #71CC16;
+}
+.download-cont .download-main .mid .download-img .app {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 19.36px;
+    color: #eceff4;
+    margin-top: 18px;
+}
+.download-cont .download-main .mid .download-img img  {
+      height: fit-content;
+}
+
+
+
+/* product page */
+.product-banner-cont {
+    background-color: #F2F8ED;
+    padding: 3rem 4rem;
+}
+
+.product-banner-cont .product-cont {
+    width: 85%;
+}
+
+.product-banner-cont .left {
+    margin-top: 4rem;
+    /* width: 50%; */
+    padding-top: 3rem;
+}
+
+.product-banner-cont .left h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+}
+
+.product-banner-cont .left p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #65757E;
+    line-height: 32px;
+    
+}
+
+.product-banner-cont .left .powered {
+    color: #096601;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 16.94px;
+    margin-top: 1.5rem;
+}
+
+.product-banner-cont .right {
+    margin-top: -3rem;
+}
+
+
 /* footer */
 .footer-main {
     background-color: #ECEFF4;
