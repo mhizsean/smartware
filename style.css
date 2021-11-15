@@ -667,7 +667,7 @@
     
 }
 
-.team-cont .top h3 {
+.team-cont .top h3, .contact-main .top h3 {
     font-size: 36px;
     font-weight: 700;
     font-family: 'Exo', sans-serif;
@@ -675,7 +675,7 @@
     line-height: 47.84px;
 }
 
-.team-cont .top .inner-text {
+.team-cont .top .inner-text, .contact-main .top .inner-text {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -704,7 +704,47 @@
     margin-top: -1rem;
 }
 
+/* contact */
+.contact-main {
+    background-color: #F2F8ED;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
 
+.contact-main .top {
+    text-align: center;
+    width: 51%;
+    margin: 0 auto;
+}
+
+.contact-main .top .inner-text {
+    /* font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 32px; */
+}
+
+.contact-main .bottom {
+    width: 45%;
+    margin: 0 auto;
+    padding: 4rem 8rem;
+    background-color: #fff;
+}
+.contact-main .form-control {
+    background-color: #f7f8fa;
+    border: none;
+}
+.contact-main .form-cont button {
+    background-color: #71CC16;
+    color: #fff;
+    width: 100%;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 3px;
+    /* height: 48px; */
+    margin-top: 2rem;
+}
 
 /* footer */
 .footer-main {
