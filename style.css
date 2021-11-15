@@ -205,7 +205,7 @@
 }
 
 .interests-cont .right {
-    padding-top: 4 rem;
+    padding-top: 4rem;
     width: 27%;
 }
 
@@ -382,7 +382,7 @@
 /* product page */
 .product-banner-cont {
     background-color: #F2F8ED;
-    padding: 3rem 4rem;
+    padding: 3rem 4rem 0rem 3rem;
 }
 
 .product-banner-cont .product-cont {
@@ -424,6 +424,286 @@
 .product-banner-cont .right {
     margin-top: -3rem;
 }
+
+
+
+/* how it works */
+.works-cont {
+    padding: 4rem 4rem;
+}
+
+.works-cont .main-cont {
+    margin: 0 auto;
+    width: 85%;
+}
+.works-cont .left img {
+    box-shadow:   0px 0px 13px 0px rgba(68, 98, 172, 0.16), inset 2px 9px 10px 4px rgba(99, 147, 168, 0.1), inset 7px 8px 4px rgba(113, 152, 165, 0.2);
+    background: #ededed;
+    border-radius: 7px;
+    margin-top: 4rem;
+}
+
+.works-cont  h4 {
+    color: #096601;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 21.78px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+.works-cont  h2 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    line-height: 50.5px;
+    color: #002134;
+    text-transform: uppercase;
+}
+
+.works-cont  .inner-text {
+    color: #65757E;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    line-height: 32px;
+}
+
+.works-cont  ul {
+    list-style: none;
+}
+
+.works-cont  ul li {
+    list-style-image: url(assets/listicon2.png);
+    color: #002134;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 19.36px;
+    margin-bottom: 1rem;
+}
+
+.works-2 {
+    background-color: #F7F8FA;
+}
+
+.works-3 .left img {
+   
+    margin-top: 0;
+}
+
+.features .left img{
+    
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+}
+
+.features .inner-text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 28px;
+}
+
+
+/* company */
+.company-cont {
+    background-color: #F2F8ED;
+    padding-top: 100px;
+    /* padding-left: 3rem; */
+}
+
+.company-cont .left {
+    margin-left: 183px;
+    margin-top: 8rem;
+}
+
+.company-cont h3, .about-cont h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+}
+
+.company-cont .outstand ul li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 28px;
+}
+
+.about-cont {
+    background-color: #ffff;
+    padding: 85px 100px;
+    text-align: center;
+}
+
+.about-cont .inner-text {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 34px;
+}
+
+.mission-cont {
+    background-color: #F2F8ED;
+}
+
+.mission-cont .left img {
+    width: 100%;
+}
+.mission-cont .right {
+    padding: 4rem 5rem;
+}
+
+.mission-cont .right h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+}
+
+.mission-cont .right .inner-text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 34px;
+    width: 75%;
+}
+
+.benefits-cont .left {
+    background-color: #F2F8ED;
+    padding-top: 5rem ;
+    padding-bottom: 5rem;
+    padding-left: 183px;
+    width: 60%;
+}
+
+.benefits-cont .left h4 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #096601;
+    line-height: 42.53px;
+    width: 60%;
+}
+
+.benefits-cont .left .benefits-list {
+    margin-top: 2rem;
+}
+.benefits-cont .left .benefits-list .items {
+    margin-bottom: 2rem;
+
+}
+.benefits-cont .left .benefits-list .items h4 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #096601;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.benefits-cont .right {
+    background-color: #fff;
+    padding: 5rem 3rem;
+}
+
+.benefits-cont h4 {
+    color: #096601;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 21.78px;
+    text-transform: uppercase;
+}
+
+.benefits-cont .right h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+    width: 50%;
+}
+
+.benefits-cont .job-lists {
+    width: 80%;
+}
+
+.benefits-cont .right ul {
+    list-style: none;
+}
+.benefits-cont .right ul li {
+    list-style-image: url(assets/listicon2.png);
+    color: #002134;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 19.36px;
+    margin-bottom: 1.2rem;
+}
+
+/* teams */
+.team-cont {
+    margin: 0 auto;
+    width: 85%;
+    padding: 4rem 6rem;
+}
+
+.team-cont .top {
+    text-align: center;
+    margin: 3rem auto;
+    width:  55%;
+    
+}
+
+.team-cont .top h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+}
+
+.team-cont .top .inner-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #65757E;
+    line-height: 32px;
+}
+
+.team-cont .teams-bio .bio {
+    margin-top: 2rem;
+}
+
+.team-cont .teams-bio .name {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    color: #002134;
+    line-height: 23.92px;
+}
+
+.team-cont .teams-bio .position {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #096601;
+    line-height: 36px;
+    margin-top: -1rem;
+}
+
 
 
 /* footer */
