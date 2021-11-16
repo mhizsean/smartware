@@ -746,6 +746,247 @@
     margin-top: 2rem;
 }
 
+/* pricing */
+.pricing-main {
+    background-color: #F2F8ED;
+    padding-top: 4rem;
+}
+
+.pricing-main .pricing-sect .top {
+    margin: 0 auto;
+    width: 55%;
+    text-align: center;
+}
+
+.pricing-main .pricing-sect .top h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+}
+.pricing-main .pricing-sect .top .inner-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #65757E;
+    line-height: 32px;
+}
+
+.pricing-sect .top .toggle .duration {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #002134;
+    line-height: 21.78px;
+}
+
+.pricing-sect .top .toggle .month {
+      margin-right: 1rem;
+}
+.pricing-sect .top .toggle .year {
+      margin-left: 1rem;
+}
+.pricing-sect .top .toggle .save {
+    background-color: #e2f3d1;
+    color: #71CC16;
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    line-height: 18.61px;
+    margin-left: 1rem;
+}
+
+.pricing-main .main-price {
+    margin: 4rem auto;
+    width: 90%;
+}
+
+.main-price .prrice-cont {
+    padding: 2.7rem 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ECEFF4;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+}
+
+
+.main-price .prrice-cont h4 {
+    color: #096601;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    line-height: 37.21px;
+}
+
+.main-price .prrice-cont .amount {
+    font-size: 39px;
+    font-weight: 700;
+    color: #002134;
+    font-family: "Exo", sans-serif;
+    line-height: 51.83px;
+}
+
+.main-price .prrice-cont .amount span {
+    font-size: 31px;
+    line-height: 41.2px;
+}
+
+.main-price .prrice-cont .inner-text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #65757E;
+    line-height: 28px;
+}
+
+.main-price .prrice-cont .list-item {
+    margin-top: 3rem;
+}
+
+.main-price .prrice-cont .list-item ul {
+    list-style: none;
+}
+.main-price .prrice-cont .list-item ul li {
+     list-style-image: url(assets/listicon2.png);
+     color: #002134;
+     font-size: 16px;
+     font-weight: 400;
+     font-family: 'Inter',
+     sans-serif;
+     line-height: 19.36px;
+     margin-bottom: 1.1rem;
+}
+
+.main-price .price-btn {
+    /* margin: 3.4rem auto; */
+    text-align: center;
+    margin-top: 3.4rem;
+}
+
+.main-price .price-btn button {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #71CC16;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 1rem 3rem;
+}
+.main-price .basic {
+    border-top: 10px solid #71CC16;
+}
+.main-price .essential {
+    border-top: 10px solid #002704;
+}
+.main-price .premium {
+    border-top: 10px solid #A3B911 !important;
+    background-color: #002704;
+    border: 1px solid #ECEFF4;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+}
+
+.main-price .premium h4 {
+    color: #71CC16;
+}
+.main-price .premium h4 span {
+    color: #fff;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 28px;
+}
+.main-price .premium .amount,
+.main-price .premium .inner-text,
+.main-price .premium .list-item ul li {
+    color: #fff;
+
+}
+
+.pricing-main .faq {
+    background-color: #F2F8ED;
+    padding-top: 3rem;
+}
+
+.faq .faq-top {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.faq .faq-top h3, .request-cont .right h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    color: #002134;
+    line-height: 47.84px;
+}
+
+.faq .faq-top .inner-text {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #65757E;
+    
+}
+
+.faq-accordion {
+    margin: 4rem auto;
+    width: 70%;
+}
+
+.request-cont .left  img{
+    width: 100%;
+}
+.request-cont .right{
+    background-color: #fff;
+    padding: 7rem 12rem 0 8rem;
+}
+
+.request-cont .right .inner-text {
+    font-size: 16px;
+    font-family: "Inter",
+    sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    color: #65757E;
+}
+
+.request-cont .right form {
+    margin-top: 2rem;
+}
+
+
+.request-cont .form-cont form .form-control {
+    background-color: #f7f8fa;
+    border: none;
+}
+.request-cont .form-cont form .form-select {
+    background-color: #f7f8fa;
+    border: none;
+}
+
+.request-cont .form-cont form .form-label {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #002134;
+}
+
+.request-cont .form-cont button {
+    background-color: #71CC16;
+    color: #fff;
+    width: 70%;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 3px;
+    margin-top: 2rem;
+}
+
 /* footer */
 .footer-main {
     background-color: #ECEFF4;
@@ -805,4 +1046,64 @@
     font-family: 'Inter', sans-serif;
     margin-bottom: 1rem;
     line-height: 32px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24.41px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 3px;
+    bottom: -1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #71CC16;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #71CC16;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(17px);
+    -ms-transform: translateX(17px);
+    transform: translateX(17px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 30px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }
