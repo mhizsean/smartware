@@ -893,7 +893,7 @@
 .main-price .premium h4 span {
     color: #fff;
     white-space: nowrap;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
     line-height: 28px;
@@ -906,8 +906,9 @@
 }
 
 .pricing-main .faq {
-    background-color: #F2F8ED;
+    background-color: #e5e5e5;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .faq .faq-top {
@@ -939,12 +940,42 @@
     width: 70%;
 }
 
+.faq-accordion .accordion-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.faq-accordion .accordion-item .accordion-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #65757E;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #71CC16 !important ;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    font-size: 16px !important;
+    line-height: 24px;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    color: #002134;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    font-size: 16px !important;
+    line-height: 24px;
+}
+
+
 .request-cont .left  img{
     width: 100%;
 }
 .request-cont .right{
     background-color: #fff;
-    padding: 7rem 12rem 0 8rem;
+    padding: 3rem 12rem 0 8rem;
 }
 
 .request-cont .right .inner-text {
@@ -984,7 +1015,7 @@
     padding: 0.8rem 2rem;
     border: none;
     border-radius: 3px;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
 }
 
 /* footer */
@@ -1044,7 +1075,7 @@
     color: #65757E;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem !important;
     line-height: 32px;
 }
 
@@ -1107,6 +1138,7 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
 
 
 @media screen and (max-width: 480px) {
@@ -1187,6 +1219,9 @@ input:checked+.slider:before {
         font-size: 14px;
     }
     
+    .product-det .left img {
+        display: none;
+    }
 }
 
 
