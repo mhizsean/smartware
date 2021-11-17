@@ -1107,3 +1107,86 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        width: 100% ;
+        background-color: red;
+        flex-wrap: nowrap;
+        padding: 0.4rem 0.7rem !important;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+    .banner-cont {
+        padding-top: 50px;
+    }
+
+    .banner-cont .container {
+        display: block;
+    }
+
+    .banner-cont .right {
+        display: none;
+        visibility: hidden;
+    }
+
+    .banner-cont .center-item h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .banner-cont .center-item p {
+        margin-top: 2rem;
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .banner-cont .bottom img {
+        width: 100%;
+    }
+
+
+    
+
+    /* why section */
+    .use-cont {
+        padding: 30px 20px;
+
+    }
+
+    .use-cont h3 {
+        text-align: center;
+        font-size: 22px;
+       
+    }
+
+    .use-cont .items {
+        margin-top: 20px;
+        text-align: center;
+        flex-direction: column;
+    }
+     
+    .use-cont .items .col {
+        margin-bottom: 1rem;
+    }
+    .use-cont .items .icon {
+        margin-bottom: 0.7rem;
+    }
+
+    .use-cont .items .sub-title {
+        font-size: 22px;
+       
+    }
+    
+    .use-cont .items .text-inner {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    
+}
+
+
