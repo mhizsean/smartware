@@ -69,7 +69,6 @@
     font-size: 56px;
     line-height: 70px;
     font-weight: 700;
-    letter-spacing: 5%;
     font-family: 'Exo', sans-serif;
     color: #002134;
 }
@@ -105,6 +104,9 @@
 }
 .banner-cont .bottom  {
    text-align: center;
+}
+.banner-cont .bottom  img{
+   width: 100%;
 }
 
 
@@ -195,7 +197,7 @@
 
 }
 
-.interests-cont .left {   
+.interests-cont .inner-cont-adv .left {   
     padding-right: 171px;
 }
 .interests-cont .left img {
@@ -385,12 +387,14 @@
 /* product page */
 .product-banner-cont {
     background-color: #F2F8ED;
-    padding: 3rem 4rem 0rem 3rem;
+    padding: 12rem 4rem 0rem 3rem;
 }
 
 .product-banner-cont .product-cont {
-    width: 85%;
+    width: 100%;
 }
+
+
 
 .product-banner-cont .b-left {
     margin-top: 4rem;
@@ -416,7 +420,7 @@
 }
 
 .product-banner-cont .b-left .inner-text-mobile {
-    display: NONE;
+    display: none;
     
 }
 
@@ -443,7 +447,7 @@
 
 .works-cont .main-cont {
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
 }
 .works-cont .left img {
     box-shadow:   0px 0px 13px 0px rgba(68, 98, 172, 0.16), inset 2px 9px 10px 4px rgba(99, 147, 168, 0.1), inset 7px 8px 4px rgba(113, 152, 165, 0.2);
@@ -1165,14 +1169,136 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
+@media screen and (max-width: 1168px) {
 
+    .product-banner-cont .product-cont {
+        padding-top: 12rem;
+    }
+
+    .product-banner-cont .product-cont .row {
+        flex-direction: row;
+    }
+    .product-banner-cont .b-right img {
+        width: 100%;
+    }
+
+    .product-banner-cont .b-left {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .product-banner-cont {
+        padding: 3rem 2rem;
+    }
+
+    .product-banner-cont .product-cont {
+        width: 100%;
+    }
+
+   
+    .works-cont .left img {
+        width: 100%;
+    }
+
+    .works-cont .works .left {
+        order: 2;
+    }
+
+    .works-cont .works-3-main .left {
+        order: 2;
+    }
+
+    .works-cont .works-2-main .right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .interests-cont .inner-cont-adv .left {
+    padding-right: 3rem;
+    }
+    .interests-cont .inner-cont-adv .right {
+        width: 55%;
+    }
+
+}
+
+@media screen and (max-width: 1016px) {
+    .works-cont .row {
+        flex-direction: column !important;
+    }
+
+    .works-cont .works-3-main .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .interests-cont .inner-cont-adv  {
+        max-width: 100%;
+        padding: 3rem;
+    }
+
+    .download-cont .download-main .left {
+        display: none;
+    }
+
+    .download-cont .download-main .right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .download-cont .download-main .right img{
+        max-width: fit-content;
+    }
+
+    
+    .banner-cont .center-item p {
+     
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .banner-cont .right img {
+        display: none;
+    }
+
+    .banner-cont .left {
+        display: none;
+    }
+
+
+    .product-banner-cont .product-cont .row {
+        flex-direction: column;
+    }
+
+    .interests-cont .inner-cont-adv .left {
+        display: none !important;
+    }
+    .interests-cont .inner-cont-adv .right {
+        width: 100%;
+        padding: 3rem 2rem;
+    }
+
+ 
+    .download-cont .download-main .right {
+        display: none;
+    }
+
+    .download-cont .download-main .mid {
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+
+}
 
 @media screen and (max-width: 480px) {
     .navbar {
         width: 100% ;
-        background-color: red;
+        background-color: #fff;
         flex-wrap: nowrap;
-        padding: 0.4rem 0.7rem !important;
+        padding: 1rem 0.7rem !important;
     }
 
     .navbar img {
@@ -1326,22 +1452,7 @@ input:checked+.slider:before {
         margin-bottom: 2rem;
     }
 
-    .download-cont .download-main .left {
-        display: none;
-    }
-    .download-cont .download-main .right {
-        display: none;
-    }
 
-    .download-cont .download-main .mid {
-        padding: 2rem;
-        margin-top: 1rem;
-    }
-
-    .download-cont .download-main .mid .download-img img {
-        width: 134px;
-        height: 45px;
-    }
 
 
     .pricing-main .pricing-sect .top {
@@ -1410,11 +1521,10 @@ input:checked+.slider:before {
 
     .product-banner-cont {
         padding: 3rem 2rem;
-
     }
 
     .product-banner-cont .product-cont {
-        width: 95%;
+        width: 100%;
     }
     
     .product-banner-cont .b-left {
