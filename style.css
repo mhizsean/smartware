@@ -744,6 +744,11 @@
     margin: 0 auto;
 }
 
+.map iframe {
+    width: 100% !important;
+    height: 300px;
+}
+
 .contact-main .bottom {
     width: 45%;
     margin: 0 auto;
