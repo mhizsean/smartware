@@ -15,34 +15,9 @@
 <body>
     
     <!-- nav -->
-    <div class="header header-fixed">
-        <div class="nav-bar">
-            <div class="logo">
-                <a href="/"><img src="assets/smartware-Logo.png" alt="logo"></a>
-            </div>
-            <input type="checkbox" id="navbar-toggle" >
-            <label for="navbar-toggle"><i></i></label>
-            <nav class="menu">
-                <ul>
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="/product.html">Product</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="/company.html">Company</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="/pricing.html">Pricing</a>
-                      </li>
-                </ul>
-            </nav>        
-        </div>
-    </div>
+    
+    <include src="partials/nav.html"></include>
+
 
 
     <!-- banner -->
@@ -160,56 +135,7 @@
             </div>
         </div>
     </div> 
-    <!-- <div class="benefits-cont">
-        <div class="row">
-            <div class="left col">
-                <h4>Benefits of joining smartware</h4>
 
-                <div class="benefits-list">
-                    <div class="items">
-                        <img src="assets/benefits-icon.png" alt="">
-                        <h4>Career Development</h4>
-                    </div>
-                    <div class="items">
-                        <img src="assets/benefits-icon.png" alt="">
-                        <h4>Fair Renumeration</h4>
-                    </div>
-                    <div class="items">
-                        <img src="assets/benefits-icon.png" alt="">
-                        <h4>Work Flexibility</h4>
-                    </div>
-                   
-                </div>
-            </div>
-            <div class="right col">
-                <h4>career</h4>
-
-                <h3>Job opportunity you can apply</h3>
-
-                <div class="job-lists mt-5">
-                    <div class="row">
-                        <div class="col">
-                            <ul>
-                                <li>Software development</li>
-                                <li>Product design</li>
-                                <li>Marketing</li>
-                                <li>Sales development</li>
-                                <li>Business development</li>
-                                <li>Back-End engineer</li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul>
-                                <li>Front-End engineer</li>
-                                <li>Customer support Agent</li>
-                                <li>HR Admin</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>  -->
 
     <!-- team -->
     <div class="team-cont">
@@ -274,105 +200,8 @@
         </div>
     </div>
     <!-- downd app -->
-    <div class="download-cont">
-        <div class="download-main d-flex justify-content-between">
-            <div class="left">
-                <img src="assets/cash.png" alt="">
-            </div>
-            <div class="mid">
-                <h3>Start using IPOS, Powered by smartware solutions</h3>
-
-                <div class="demo-link d-flex align-items-baseline mt-4">
-                    <a href="/requestdemo.html" class="me-3">Request A Demo</a>
-                    <img src="assets/arrow2.png" alt="" >
-                </div>
-    
-                <div class="download-img">
-                    <p class="app">Download our app</p>
-                    <div class="img d-flex align-items-center">
-                        <img src="assets/googleplay.png" alt="">
-                        <img src="assets/applestore.png" alt="" class="ms-3">
-                    </div>
-                </div>
-            </div>
-
-            <div class="right">
-                <img src="assets/world.png" alt="">
-            </div>
-           
-        </div>
-    </div>
-
-    <!-- footer -->
-    <div class="footer-main">
-        <div class="footer-top container">
-            <div class="row">
-                <div class="col-md-4 left">
-                    <div class="logo-img">
-                        <img src="assets/nav-logo.png" alt="">
-                    </div>
-                  
-                    <div class="company-address">
-                         <p class="footer-text address mt-2">2j Obasa close, Oba-Akran <br> ikeja, Lagos State.</p>
-                        <p class="footer-text email">smartwareng@live.com</p>
-                        <p class="footer-text num">07020000034</p>
-                    </div>
-                </div>
-
-                <div class="right col-md-8">
-                    <div class="row">
-                        <div class="col-md-3 col-6">
-                            <h3>legal</h3>
-                            <ul>
-                                <li>Terms of service</li>
-                                <li>Privacy Policy</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <h3>Company</h3>
-                            <ul>
-                                <li>Our staff</li>
-                                <li>Our Product</li>
-                                <li>Sales lead</li>
-                                <li>HR</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-6">
-                            <h3>Services</h3>
-                            <ul>
-                                <li>Ipos Terminal</li>
-                                <li>Ipos Admin</li>
-                                <li>Ipos Cloud</li>
-                                <li>Ipos Bi</li>
-                                <li>Ipos Mobile</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-6 mt-5 social">
-                            <div class="d-flex justify-content-between">
-                                <a href="https://www.linkedin.com/company/smartware-solutions-ltd/" target="_blank">
-                                    <img src="assets/linkedin.png" alt="">
-                                </a>
-                                <a href="https://www.instagram.com/smartwareng/" target="_blank">
-                                    <img src="assets/ig.png" alt="">
-                                </a>
-                                <a href="https://www.twitter.com/smartwareng/" target="_blank">
-                                    <img src="assets/twitter.png" alt="">
-                                </a>
-                                <a href="https://web.facebook.com/smartwareng" target="_blank">
-                                    <img src="assets/fb.png" alt="">
-                                </a>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="footer-bottom">
-            <p>Copyright All rights reserved. Smartware Soltuions 2021 </p>
-        </div>
-    </div>
+    <include src="partials/downloadapp.html"></include>
+    <include src="partials/footer.html"></include>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
